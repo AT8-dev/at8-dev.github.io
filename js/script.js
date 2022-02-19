@@ -1,4 +1,4 @@
-document.getElementById("year").innerHTML = (new Date).getUTCFullYear();
 function handleClick() {
-  var l = document.getElementById('Links'); 'block' === l.style.display?l.style.display = 'none': l.style.display = 'block'
+  var e = document.getElementById('Links'); 'block' === e.style.display?e.style.display = 'none': e.style.display = 'block'
 }
+document.getElementById('year').innerText = (new Date).getUTCFullYear();
